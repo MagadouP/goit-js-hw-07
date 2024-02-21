@@ -12,3 +12,5 @@ const images = [
     alt: 'Group of Horses Running',
   },
 ];
+
+const gallery = images.map(image => image.url, image.alt);
