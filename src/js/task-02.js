@@ -6,8 +6,6 @@ const ingredients = [
   'Herbs',
   'Condiments',
 ];
-<<<<<<< HEAD
-=======
 
 const ingredientsListElement = document.querySelector('ul#ingredients');
 
@@ -20,4 +18,3 @@ const htmlIngredients = ingredients.map(ingredient => {
 
 ingredientsListElement.append(...htmlIngredients);
 
->>>>>>> c2f996a294367a54e4fac086b97e146f84113282
